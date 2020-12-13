@@ -6,6 +6,7 @@ import {faDownload} from '@fortawesome/free-solid-svg-icons';
 import './styles/about.css';
 
 
+
 class About extends React.Component{
   render(){
       return(
@@ -24,7 +25,8 @@ class About extends React.Component{
                 <span>Brooklyn, New York</span> <br/>
                 <span>Staceylouis@icloud.com</span> <br/>
                 <span>917-763-8104</span> <br/>
-                <button id="download"><a href="https://www.canva.com/design/DAEJfSs_1t0/sIep0O4_9Uk0dHhkvrs4xw/view?utm_content=DAEJfSs_1t0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank"> <FontAwesomeIcon icon={faDownload} id="faDownload"/>Download Resume</a></button>
+                <button className="download"><a href="https://www.canva.com/design/DAEJfSs_1t0/sIep0O4_9Uk0dHhkvrs4xw/view?utm_content=DAEJfSs_1t0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank"> <FontAwesomeIcon icon={faDownload} id="faDownload"/>Download Resume</a></button>
+             
             </div>
       </div>
       

@@ -1,10 +1,17 @@
-
+.accord-container{
+    background-color: teal ;
+}
 
 #img-div{
+    background-color: teal !important;
    width: 800px;
    margin: 0 auto;
     padding: 20px;
 
+}
+
+#accordion{
+    background-color: teal !important;
 }
 .resume-img{
     width: 500px;

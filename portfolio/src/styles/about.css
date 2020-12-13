@@ -1,6 +1,6 @@
 #resume{
-	min-height: 50vh;
-	background-color: rgba(151, 141, 49, 0.911);
+	min-height: 40vh;
+	background-color: rgba(49, 138, 96, 0.911);
 	color: white;
 	display: flex;
 	justify-content: space-between;
@@ -40,7 +40,7 @@ span{
 	line-height: 30px;
 }
 
-#download{
+.download{
 	border: none;
 	padding: 2%;
 	background-color: rgb(146, 130, 42);
@@ -50,6 +50,9 @@ span{
 	min-width: 200px;
 	
 
+}
+.download a{
+	color: white
 }
 
 #faDownload{
