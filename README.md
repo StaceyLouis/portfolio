@@ -1,4 +1,4 @@
 # Portfolio 
 
-Build with ReactJs
+Built with ReactJs
 http://staceylouis.tech/
