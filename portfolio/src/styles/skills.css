@@ -1,0 +1,14 @@
+#skills{
+    min-height: 40vh;
+
+}
+#skills-title{
+    font-size: 60px;
+    padding: 5%;
+    text-align: center;
+}
+
+#skills-container{
+    width: 50%;
+    margin: 0 auto !important;
+}

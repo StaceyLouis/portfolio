@@ -1,0 +1,84 @@
+.projects{
+    color: white;
+}
+#projects-title{
+    color: black;
+}
+.projects-container{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.one{
+ background-image: url('todo.jpg');
+}
+.two{
+    background-image: url('Calculator.jpg');
+
+}
+.three{
+    background-image: url('nasa.jpg');
+ 
+}
+.four{
+    background-image: url('fund.jpg');
+   
+}
+.one,
+.two,
+.three,
+.four{
+    width: 750px;
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover{
+    width: 650px;
+    height: 400px;
+    margin: 40px;
+}
+
+
+#projects-title{
+    font-size: 4rem;
+    text-align: center;
+    padding: 5%;
+}
+
+.desc-title{
+    color: white;
+}
+.desc{}
+.demo-button,
+.github-button{
+    border:none;
+    margin: 5px;
+    padding: 15px;
+    background-color: rgb(58, 24, 24);
+    color: white;
+    border-radius: 10px;
+}
+.github-button{}
+
+.overlay{
+    background-color: rgba(95, 110, 95, 0.7);
+    width: 50% !important;
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.overlay:hover{
+   
+    padding-left: 20px;
+}

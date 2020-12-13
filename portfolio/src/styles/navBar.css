@@ -1,0 +1,15 @@
+.main{
+	display: flex;
+	justify-content: space-between;
+}
+
+nav{
+	margin-top: 10px;
+}
+nav a{
+	text-decoration: none;
+	color: #182b6f;
+	font-size: 2rem;
+	margin: 20px;
+	
+}

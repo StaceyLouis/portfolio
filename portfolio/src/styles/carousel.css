@@ -1,0 +1,21 @@
+.canvas{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+}
+
+.card{
+	width: 500px;
+	height: 100px;
+	background-color: #333;
+	color: white;
+	font-size: 30px;
+	margin: 0 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
