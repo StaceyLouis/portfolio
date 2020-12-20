@@ -1,5 +1,10 @@
+.skills{
+ 
+    padding: 2%;
+}
 #skills{
     min-height: 40vh;
+
 
 }
 #skills-title{
@@ -11,4 +16,8 @@
 #skills-container{
     width: 50%;
     margin: 0 auto !important;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 4%;
+    box-shadow: 10px 10px 20px rgb(179, 175, 175);
 }

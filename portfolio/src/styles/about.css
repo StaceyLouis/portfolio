@@ -1,26 +1,56 @@
-#resume{
-	min-height: 40vh;
-	background-color: rgba(49, 138, 96, 0.911);
-	color: white;
+.resume{
+	background: linear-gradient(to left, #2e86ec 0%, #68b1b6 64%);
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	max-height: 70vh;
+}
+#resume{
+	
+	display: flex;
+	padding: 4%;
+width: 50%;
+	color: white;
+	justify-content: space-around;
+
 	padding: 5%;
 }
+#particles{
 
+min-width: 40vw;
+width: 200px;
+}
+#res-title{
+	font-size: 3rem;
+	margin: 20px auto;
+}
 #about-img{
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	margin-left: 300px;
-}
 
+}
+#resume h1,
+#res-title{
+	margin: 20px auto;
+	font-size: 40px;
+	text-align: left;
+	color: rgb(43, 13, 175);
+
+	
+}
+#about-p{
+	font-size:  20px;
+	
+
+	text-align: left;
+}
 .about-container{
-	margin: 30px auto;
-	width: 50%;
+	margin-left:  300px;
 }
 #about-title{
 	font-size: 3rem;
 	margin-bottom: 20px;
+	text-align: left !important;
 	
 }
 #about-title:hover{
@@ -34,8 +64,10 @@
 font-size: 3rem;
 margin-top: 20px;
 margin-bottom: 20px;
+color: rgb(39, 117, 100);
+
 }
-span{
+.about-container span{
 	font-size: 20px;
 	line-height: 30px;
 }
@@ -43,7 +75,7 @@ span{
 .download{
 	border: none;
 	padding: 2%;
-	background-color: rgb(146, 130, 42);
+	background-color: rgb(43, 13, 175);
 	color: white;
 	font-size: 20px;
 	margin-top: 20px;
@@ -52,9 +84,37 @@ span{
 
 }
 .download a{
-	color: white
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 #faDownload{
 	margin-right: 10px;
+}
+
+
+.cards .img-top{
+    display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.cards{
+	width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+        margin: 50px;
+    }
+	.cards:hover .img-top {
+        display: inline;
+	}
+#img-top{
+	width: 250px;
+	height: 250px;
+
+	object-fit:cover;
+	border-radius: 50%;
 }

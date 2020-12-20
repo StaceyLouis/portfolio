@@ -31,9 +31,11 @@
 
 #name{
   margin-top: 400px;
-
+  font-family: 'Arvo', serif;
 font-size: 100px;
 margin-bottom: 20px;
+
+
 }
 
 #sub-name{
@@ -43,17 +45,36 @@ margin-bottom: 20px;
 
 a{
     text-decoration: none;
+    color: white;
 }
-  
+.fa:hover{
+  color: #9c47fc;
+
+  background: -webkit-linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.icons:hover{
+ 
+  margin: 10px;
+  transition: ease-in .2s;
+
+}
   .chevron {
     position: absolute;
     width: 28px;
     height: 8px;
     opacity: 0;
-    margin-left: 90px;
+    margin-left: 40px;
     margin-top: 20px;
     transform: scale3d(0.5, 0.5, 0.5);
     animation: move 3s ease-out infinite;
+
+
+  
   }
   
   .chevron:first-child {
@@ -128,16 +149,29 @@ a{
     }
   }
 .icons{
+  margin-top: 30px;
 
 }
 
 #fa-icon,
 #li-icon,
 #in-icon,
-#ma-icon{
+#ma-icon,
+#gi-icon{
 font-size: 40px;
-margin-right: 10px;
+margin-right: 20px;
 }
+#fa-icon:hover,
+#li-icon:hover,
+#in-icon:hover,
+#ma-icon:hover,
+#gi-icon:hover{
+  font-size: 70px;
+
+
+
+}
+
 
 .typewriter {
   color: #fff;

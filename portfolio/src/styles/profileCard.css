@@ -1,0 +1,13 @@
+.profile-wrap{
+    margin: 0 auto;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(40, 43, 196, 0.384);
+    color: black;
+    font-size: 20px;
+    padding: 2%;
+    line-height: 40px;
+}
+.profile-wrap h1{
+    font-size: 24px;
+}

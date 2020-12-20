@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Playfair+Display:ital@0;1&family=Titillium+Web:ital,wght@1,600&family=Yellowtail&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,6 +45,6 @@ table {
 }
 body{
 	color: black;
-	font-family: 'JetBrains Mono', monospace;
+	font-family: 'Arvo', serif;
 
 }

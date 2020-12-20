@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Header from './Header';
-import Contact from './Contact';
 import About from './About';
 import Footer from './Footer';
 import Skills from './Skills'
@@ -12,7 +11,7 @@ import Projects from './Projects'
 
 
 import './styles/app.css';
-import Accord from './Accord';
+import Envelope from './Envellope';
 
 
 
@@ -22,13 +21,15 @@ function App() {
     <div >
     <Header />
     <About />
-    <Accord/>
-        
-    <Skills />
+    
+    <h1 id="skills-title">Skills</h1>
+    <Skills/>
+   
    <Projects/>
-    <Contact />
-    <Footer/>
-
+   <h1 id="skills-title"> Get in Touch </h1>
+    <Envelope />
+  
+<Footer/>
 
     </div>
   );
